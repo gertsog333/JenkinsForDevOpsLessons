@@ -1,2 +1,2 @@
 # JenkinsForDevOpsLessons
-This repositorin created for Jenkins DevOpsII lessons
+This repositori created for Jenkins DevOpsII lessons
