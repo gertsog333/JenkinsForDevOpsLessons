@@ -1,9 +1,6 @@
 #!/bin/bash 
 
-echo -e "***START***"
-
-ls -la
-pwd 
-whoami
-
-echo -e "***END***"
+sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt-get install -y apache2
+sudo systemctl enable apache2
+sudo systemctl start apache2
