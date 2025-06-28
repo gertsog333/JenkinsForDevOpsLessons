@@ -10,8 +10,11 @@ fi
 ERRORS=$(grep -E '" (4[0-9][0-9]|5[0-9][0-9]) ' "$LOG_FILE")
 
 if [ -n "$ERRORS" ]; then
-  echo "4xx and 5xx errors found::"
+  echo -e ""
+  echo "4xx AND 5xx ERRPRS FOUND:"
+  echo -e ""
   echo "$ERRORS"
+  echo -e ""
 else
   echo -e "" 
   echo "There are no errors in log file"
