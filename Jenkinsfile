@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                sh 'echo "PRESENTING RUN FOR video № 1 "'
+                sh 'echo "PRESENTING RUN FOR video № 2 "'
                 git branch: 'main', url: 'https://github.com/gertsog333/JenkinsForDevOpsLessons.git'
             }
         }
