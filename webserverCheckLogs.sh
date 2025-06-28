@@ -13,5 +13,7 @@ if [ -n "$ERRORS" ]; then
   echo "4xx and 5xx errors found::"
   echo "$ERRORS"
 else
+  echo -e "" 
   echo "There are no errors in log file"
+  echo -e ""
 fi
