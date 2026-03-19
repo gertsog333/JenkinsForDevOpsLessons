@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+#Install Apache Web Server
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install -y apache2
 sudo systemctl enable apache2
